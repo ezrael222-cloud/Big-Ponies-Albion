@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Big Ponies — Albion Online</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #f5f0e8;
+      background: #101820;
+    }
+    header {
+      padding: 24px 18px;
+      text-align: center;
+      background: #182c36;
+      border-bottom: 2px solid #d5a34b;
+    }
+    h1 { color: #f2c36b; font-size: 36px; margin: 8px 0; }
+    nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+    nav a {
+      color: #f5f0e8;
+      text-decoration: none;
+      padding: 10px 14px;
+      border: 1px solid #52636b;
+      border-radius: 8px;
+    }
+    main { max-width: 900px; margin: auto; padding: 24px 18px; }
+    .hero {
+      padding: 30px 20px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, #263e48, #101820);
+      border: 1px solid #52636b;
+    }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 14px; margin-top: 20px; }
+    .card { padding: 18px; background: #1b2a32; border-radius: 12px; border: 1px solid #40535c; }
+    .card h3 { color: #f2c36b; }
+    .note { color: #b8c5ca; font-size: 14px; }
+    footer { text-align: center; padding: 24px; color: #b8c5ca; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Big Ponies</h1>
+    <p>Albion Online — kills, rankingi i Drogi Avalońskie</p>
+    <nav>
+      <a href="#kills">Juicy Kills</a>
+      <a href="#rankingi">Rankingi</a>
+      <a href="#atlas">Atlas Avalonu</a>
+      <a href="#discord">Discord</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <h2>Witaj w Big Ponies</h2>
+      <p>Twoje centrum informacji o świecie Albion Online.</p>
+      <p class="note">Portal jest w budowie. Dane o zabójstwach i wycenach dodamy w kolejnych etapach.</p>
+    </section>
+    <div class="cards">
+      <section class="card" id="kills">
+        <h3>Juicy Kills 50M+</h3>
+        <p>Wyszukuj najcenniejsze walki we wszystkich regionach.</p>
+        <p class="note">Europe · Americas · Asia</p>
+      </section>
+      <section class="card" id="rankingi">
+        <h3>Rankingi</h3>
+        <p>Rankingi graczy i gildii oraz profile członków.</p>
+      </section>
+      <section class="card" id="atlas">
+        <h3>Drogi Avalońskie</h3>
+        <p>Atlas map, poziomów i połączeń między drogami.</p>
+      </section>
+      <section class="card" id="discord">
+        <h3>Powiadomienia Discord</h3>
+        <p>W przyszłości dodamy alerty o interesujących zabójstwach.</p>
+      </section>
+    </div>
+  </main>
+  <footer>Big Ponies · Fanowski projekt Albion Online</footer>
+</body>
+</html>
